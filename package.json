@@ -6,10 +6,10 @@
   "author": "Gunnar Omander <gunnar@gomander.dev>",
   "type": "module",
   "main": "main.ts",
-  "scripts": {
-    "start": "npm run deploy-commands & node --env-file=.env .",
-    "dev": "node --env-file=.env --watch .",
-    "deploy-commands": "node --env-file=.env deploy-commands.ts",
+"scripts": { 
+  "start": "npm run deploy-commands && node .",
+  "dev": "node --watch .",
+  "deploy-commands": "node deploy-commands.ts"
     "check-types": "tsc",
     "lint": "oxlint",
     "format": "oxfmt"
