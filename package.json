@@ -7,7 +7,7 @@
   "type": "module",
   "main": "main.ts",
 "scripts": { 
-  "start": "npm run deploy-commands && node .",
+  "start": "npm run deploy-commands, && node .",
   "dev": "node --watch .",
   "deploy-commands": "node deploy-commands.ts"
     "check-types": "tsc",
